@@ -1,3 +1,39 @@
 .quotaBlock {
   color: red;
 }
+
+#ruby {
+  background: url(../pictures/gem-ruby.png) no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+  border: none;
+  width: 100px;
+  height: 100px;
+}
+
+#diamond {
+  background: url(../pictures/gem-diamond.png) no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+  border: none;
+  width: 100px;
+  height: 100px;
+}
+
+#topaz {
+  background: url(../pictures/gem-topaz.png) no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+  border: none;
+  width: 100px;
+  height: 100px;
+}
+
+#emerald {
+  background: url(../pictures/gem-emerald.png) no-repeat;
+  background-size: 100%;
+  cursor: pointer;
+  border: none;
+  width: 100px;
+  height: 100px;
+}
