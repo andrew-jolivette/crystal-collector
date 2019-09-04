@@ -5,6 +5,7 @@ body {
 
 .title {
   margin-top: 10px;
+  margin-bottom: 10px;
   font-size: 25px;
   text-align: center;
 }
@@ -12,13 +13,12 @@ body {
 .instructions {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 25px;
   background: #5a35cc;
   border-style: solid;
   border-radius: 5px;
   border-width: 3px;
   border-color:  white;
-  width: 600px;
+  max-width: 600px;
 }
   .instructions p {
     margin-top: 5px;
@@ -61,40 +61,52 @@ body {
 }
 #ruby {
   display: table-cell;
-  background: url(../pictures/gem-ruby.png) no-repeat;
+  background: url(../pictures/empty-ruby.png) no-repeat;
   background-size: 100%;
   cursor: pointer;
   border: none;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
+  #ruby:hover {
+    background: url(../pictures/mining-ruby.png) no-repeat;
+  }
 #diamond {
   display: table-cell;
-  background: url(../pictures/gem-diamond.png) no-repeat;
+  background: url(../pictures/empty-diamond.png) no-repeat;
   background-size: 100%;
   cursor: pointer;
   border: none;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
+  #diamond:hover {
+    background: url(../pictures/mining-diamond.png) no-repeat;
+  }
 #topaz {
   display: table-cell;
-  background: url(../pictures/gem-topaz.png) no-repeat;
+  background: url(../pictures/empty-topaz.png) no-repeat;
   background-size: 100%;
   cursor: pointer;
   border: none;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
+  #topaz:hover {
+    background: url(../pictures/mining-topaz.png) no-repeat;
+  }
 #emerald {
   display: table-cell;
-  background: url(../pictures/gem-emerald.png) no-repeat;
+  background: url(../pictures/empty-emerald.png) no-repeat;
   background-size: 100%;
   cursor: pointer;
   border: none;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
+  #emerald:hover {
+    background: url(../pictures/mining-emerald.png) no-repeat;
+  }
 
 .valueBlock {
   margin-left: auto;
