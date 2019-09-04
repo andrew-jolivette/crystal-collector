@@ -1,8 +1,66 @@
+body {
+  background: black;
+  color: white;
+}
+
+.title {
+  margin-top: 10px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.instructions {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  background: #5a35cc;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color:  white;
+  width: 600px;
+}
+  .instructions p {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+    .instructions p:last-child {
+      margin-bottom: 5px;
+    }
+
+.scoreBlock {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+  #wins {
+    display: table-cell;
+    text-align: center;
+    padding: 8px;
+  }
+  #losses {
+    display: table-cell;
+    text-align: center;
+    padding: 8px;
+  }
+
 .quotaBlock {
+  text-align: center;
   color: red;
 }
 
+.gemsBlock {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 #ruby {
+  display: table-cell;
   background: url(../pictures/gem-ruby.png) no-repeat;
   background-size: 100%;
   cursor: pointer;
@@ -10,8 +68,8 @@
   width: 100px;
   height: 100px;
 }
-
 #diamond {
+  display: table-cell;
   background: url(../pictures/gem-diamond.png) no-repeat;
   background-size: 100%;
   cursor: pointer;
@@ -19,8 +77,8 @@
   width: 100px;
   height: 100px;
 }
-
 #topaz {
+  display: table-cell;
   background: url(../pictures/gem-topaz.png) no-repeat;
   background-size: 100%;
   cursor: pointer;
@@ -28,8 +86,8 @@
   width: 100px;
   height: 100px;
 }
-
 #emerald {
+  display: table-cell;
   background: url(../pictures/gem-emerald.png) no-repeat;
   background-size: 100%;
   cursor: pointer;
@@ -37,3 +95,16 @@
   width: 100px;
   height: 100px;
 }
+
+.valueBlock {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+  .valueTitle {
+    text-align: center;
+  }
+  .valueAmount {
+    margin-top: 3px;
+    text-align: center; 
+  }

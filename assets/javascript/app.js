@@ -55,7 +55,7 @@ function randQuota() { //generates a random quota between 19 - 120
   $quota = Math.floor(Math.random() * 102) + 19;
   console.log('Quota: ' + $quota);
 
-  $('#quota').html($quota);
+  $('#quota').html('Quota Goal: ' + $quota);
 } randQuota();
 
 function scoreBoard () {
@@ -73,12 +73,12 @@ function gameReset() {
 function checkWin() {
   if ($totalValue === $quota) {
     wins++;
-    // maybe custom win popup banner?
+    // maybe add a custom win toast popup?
     scoreBoard();
     gameReset();
   } else if ($totalValue > $quota) {
     losses++
-    // maybe custom loss popup banner?
+    // maybe add a custom loss toast popup?
     scoreBoard();
     gameReset();
   }
