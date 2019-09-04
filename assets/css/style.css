@@ -70,6 +70,7 @@ body {
 }
   #ruby:hover {
     background: url(../pictures/mining-ruby.png) no-repeat;
+    background-size: 100%;
   }
 #diamond {
   display: table-cell;
@@ -82,6 +83,7 @@ body {
 }
   #diamond:hover {
     background: url(../pictures/mining-diamond.png) no-repeat;
+    background-size: 100%;
   }
 #topaz {
   display: table-cell;
@@ -94,6 +96,7 @@ body {
 }
   #topaz:hover {
     background: url(../pictures/mining-topaz.png) no-repeat;
+    background-size: 100%;
   }
 #emerald {
   display: table-cell;
@@ -106,6 +109,7 @@ body {
 }
   #emerald:hover {
     background: url(../pictures/mining-emerald.png) no-repeat;
+    background-size: 100%;
   }
 
 .valueBlock {
